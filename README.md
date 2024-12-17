@@ -11,6 +11,10 @@ This project is a data analysis and clustering application built with Streamlit.
 
 ## Running the Application
 
+### Generating .csv file
+User can generate a new .csv file using `generator.py` or use the existing `sales_data.csv` file which will be selected in the web application for analysis.
+Both the generator and the finished .csv file are located in the `/data` folder.
+
 ### Installed Dependencies
 The application requires the following dependencies, which can be installed via pip: <br>
 ``` 
@@ -24,4 +28,7 @@ After installing all dependencies, run the Streamlit application using the follo
 ```
 streamlit run app.py
 ```
-
+Once the application is running, visit the following address in your browser:
+```
+http://localhost:8501
+```
