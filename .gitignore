@@ -1,7 +1,3 @@
-#Do not upload .csv files
-database/basket.csv
-database/Groceries data.csv
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
